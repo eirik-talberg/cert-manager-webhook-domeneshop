@@ -11,7 +11,7 @@ groupName: acme.mycompany.com
 certManager:
   namespace: cert-manager
   serviceAccountName: cert-manager
-
+∏
 image:
   repository: domeneshop/cert-manager-webhook-domeneshop
   tag: latest
@@ -41,3 +41,5 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+supportClusterIssuer: false
